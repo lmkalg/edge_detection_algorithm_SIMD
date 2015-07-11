@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/tpfinal/!svn/ver/473/SdC/filtros
+END
+smoothing_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/455/SdC/filtros/smoothing_c.c
+END
+umbralizar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tpfinal/!svn/ver/471/SdC/filtros/umbralizar_c.c
+END
+waves_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/471/SdC/filtros/waves_asm.asm
+END
+monocromatizar_uno_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tpfinal/!svn/ver/455/SdC/filtros/monocromatizar_uno_asm.asm
+END
+rotar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/471/SdC/filtros/rotar_asm.asm
+END
+Pila.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tpfinal/!svn/ver/455/SdC/filtros/Pila.cpp
+END
+waves_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tpfinal/!svn/ver/471/SdC/filtros/waves_c.c
+END
+monocromatizar_uno_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tpfinal/!svn/ver/455/SdC/filtros/monocromatizar_uno_c.c
+END
+combinar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tpfinal/!svn/ver/468/SdC/filtros/combinar_asm.asm
+END
+rotar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tpfinal/!svn/ver/471/SdC/filtros/rotar_c.c
+END
+prewitt_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tpfinal/!svn/ver/455/SdC/filtros/prewitt_asm.asm
+END
+combinar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tpfinal/!svn/ver/468/SdC/filtros/combinar_c.c
+END
+halftone_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tpfinal/!svn/ver/471/SdC/filtros/halftone_asm.asm
+END
+prewitt_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tpfinal/!svn/ver/455/SdC/filtros/prewitt_c.c
+END
+ondas_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/468/SdC/filtros/ondas_asm.asm
+END
+halftone_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tpfinal/!svn/ver/471/SdC/filtros/halftone_c.c
+END
+ondas_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tpfinal/!svn/ver/468/SdC/filtros/ondas_c.c
+END
+anguloSobel_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tpfinal/!svn/ver/455/SdC/filtros/anguloSobel_asm.asm
+END
+anguloSobel_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tpfinal/!svn/ver/455/SdC/filtros/anguloSobel_c.c
+END
+recortar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tpfinal/!svn/ver/468/SdC/filtros/recortar_asm.asm
+END
+recortarMult_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/tpfinal/!svn/ver/471/SdC/filtros/recortarMult_asm.asm
+END
+recortar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tpfinal/!svn/ver/468/SdC/filtros/recortar_c.c
+END
+recortarMult_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tpfinal/!svn/ver/471/SdC/filtros/recortarMult_c.c
+END
+normalizar_local_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tpfinal/!svn/ver/468/SdC/filtros/normalizar_local_asm.asm
+END
+nonMaxSup_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tpfinal/!svn/ver/455/SdC/filtros/nonMaxSup_asm.asm
+END
+doubleThresholding_c.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tpfinal/!svn/ver/455/SdC/filtros/doubleThresholding_c.cpp
+END
+roberts_cross_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tpfinal/!svn/ver/455/SdC/filtros/roberts_cross_asm.asm
+END
+normalizar_local_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/tpfinal/!svn/ver/468/SdC/filtros/normalizar_local_c.c
+END
+Pila.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/tpfinal/!svn/ver/455/SdC/filtros/Pila.h
+END
+nonMaxSup_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/455/SdC/filtros/nonMaxSup_c.c
+END
+roberts_cross_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tpfinal/!svn/ver/455/SdC/filtros/roberts_cross_c.c
+END
+monocromatizar_inf_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tpfinal/!svn/ver/468/SdC/filtros/monocromatizar_inf_asm.asm
+END
+monocromatizar_inf_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tpfinal/!svn/ver/468/SdC/filtros/monocromatizar_inf_c.c
+END
+pixelar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tpfinal/!svn/ver/468/SdC/filtros/pixelar_asm.asm
+END
+colorizar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tpfinal/!svn/ver/471/SdC/filtros/colorizar_asm.asm
+END
+sobel_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/455/SdC/filtros/sobel_asm.asm
+END
+smoothing_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tpfinal/!svn/ver/455/SdC/filtros/smoothing_asm.asm
+END
+umbralizar_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tpfinal/!svn/ver/471/SdC/filtros/umbralizar_asm.asm
+END
+pixelar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tpfinal/!svn/ver/468/SdC/filtros/pixelar_c.c
+END
+colorizar_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tpfinal/!svn/ver/471/SdC/filtros/colorizar_c.c
+END
+sobel_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tpfinal/!svn/ver/455/SdC/filtros/sobel_c.c
+END
