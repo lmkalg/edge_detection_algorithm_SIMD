@@ -49,6 +49,48 @@ VentanaPrincipal::~VentanaPrincipal()
     delete ui;
 }
 
+
+//void VentanaPrincipal::ponerImagen(const cv::Mat& frame, QLabel * donde)
+void VentanaPrincipal::ponerImagen(IplImage * &frame, QLabel * donde)
+{
+    QImage imageQ;
+    cv::Mat _tmp;
+
+    cv::Mat casted_frame  = cv::cvarrToMat(frame);
+
+    switch (casted_frame.type()) {
+    case CV_8UC1:
+        cvtColor(casted_frame, _tmp, CV_GRAY2RGB);
+        break;
+    case CV_8UC3:
+        cvtColor(casted_frame, _tmp, CV_BGR2RGB);
+        break;
+    }
+    assert(_tmp.isContinuous());
+    imageQ = QImage(_tmp.data, _tmp.cols, _tmp.rows, _tmp.cols*3, QImage::Format_RGB888);
+    
+    QPixmap p = QPixmap::fromImage(imageQ);
+    
+    int w, h;
+
+    int alturaLabelMAX = donde->maximumSize().height();
+    int anchoLabelMAX = donde->maximumSize().width();
+
+    if( _tmp.rows <= alturaLabelMAX && _tmp.cols <= anchoLabelMAX ){
+        w = anchoLabelMAX;
+        h = alturaLabelMAX;
+    }
+    else{
+        w = donde->width();
+        h = donde->height();
+    }
+
+    p = p.scaled(w,h,Qt::KeepAspectRatio, Qt::SmoothTransformation);
+
+    donde->setPixmap(p);
+}
+
+
 void VentanaPrincipal::Iniciar()
 {
     imagen = cvLoadImage(rutaImagenBase);
@@ -115,43 +157,6 @@ void VentanaPrincipal::voltear_horizontal(unsigned char *src, unsigned char *dst
     }
 }
 
-void VentanaPrincipal::ponerImagen(const cv::Mat& frame, QLabel * donde)
-{
-    QImage imageQ;
-    cv::Mat _tmp;
-
-    switch (frame.type()) {
-    case CV_8UC1:
-        cvtColor(frame, _tmp, CV_GRAY2RGB);
-        break;
-    case CV_8UC3:
-        cvtColor(frame, _tmp, CV_BGR2RGB);
-
-        break;
-    }
-    assert(_tmp.isContinuous());
-    imageQ = QImage(_tmp.data, _tmp.cols, _tmp.rows, _tmp.cols*3, QImage::Format_RGB888);
-    
-    QPixmap p = QPixmap::fromImage(imageQ);
-    
-    int w, h;
-
-    int alturaLabelMAX = donde->maximumSize().height();
-    int anchoLabelMAX = donde->maximumSize().width();
-
-    if( _tmp.rows <= alturaLabelMAX && _tmp.cols <= anchoLabelMAX ){
-        w = anchoLabelMAX;
-        h = alturaLabelMAX;
-    }
-    else{
-        w = donde->width();
-        h = donde->height();
-    }
-
-    p = p.scaled(w,h,Qt::KeepAspectRatio, Qt::SmoothTransformation);
-
-    donde->setPixmap(p);
-}
 
 void VentanaPrincipal::pintarCruz(QLabel * donde, int xs, int ys)
 {

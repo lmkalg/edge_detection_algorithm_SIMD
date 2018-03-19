@@ -15,6 +15,7 @@
 #include <QFileInfo>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
+#include <opencv2/imgproc/imgproc.hpp>
 
 #include <time.h>
 
@@ -99,7 +100,7 @@ private:
 
     void voltear_horizontal(unsigned char *, unsigned char *, int, int, int);
 
-    void ponerImagen(const cv::Mat&, QLabel *);
+    void ponerImagen(IplImage*&, QLabel *);
     void pintarCruz(QLabel *, int, int);
 
 
