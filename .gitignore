@@ -1,0 +1,5 @@
+objs/*
+*.o
+bin/tpfinal
+interfaz/ui_*
+interfaz/moc_*
