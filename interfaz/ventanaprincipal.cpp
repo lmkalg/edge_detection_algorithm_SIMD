@@ -1836,9 +1836,6 @@ void VentanaPrincipal::on_actionWebcam_triggered()
     }
     else{
 
-        // Calcula el tiempo con el que tiene que refrescar
-        IplImage* aux = cvRetrieveFrame(this->camara);
-
         time(&end);
 
         double fps = 1 / difftime(end, start);
